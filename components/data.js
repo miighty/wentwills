@@ -1,14 +1,7 @@
-import {
-  FaceSmileIcon,
-  ChartBarSquareIcon,
-  CursorArrowRaysIcon,
-  DevicePhoneMobileIcon,
-  AdjustmentsHorizontalIcon,
-  SunIcon,
-} from "@heroicons/react/24/solid";
+import { FaceSmileIcon } from "@heroicons/react/24/solid";
 
 import benefitOneImg from "../public/img/20230710.jpeg";
-import benefitTwoImg from "../public/img/20230710(3).jpeg";
+import benefitTwoImg from "../public/img/20230717(2).jpeg";
 
 const benefitOne = {
   title: "Our Wills",
