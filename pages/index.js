@@ -26,40 +26,48 @@ const Home = () => {
 
       <Navbar />
       <Hero />
-      <SectionTitle
-        pretitle="Nextly Benefits"
-        title=" Why should you use this landing page">
-        Nextly is a definitely free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+      <SectionTitle title="Why should you use us?">
+        We are Antoinette and Charlene, sisters who are passionate about helping
+        ladies to understand estate planning and put things into place - to
+        protect themselves and their families.
+        <br />
+        <br />
+        We have been serving ladies and their families since 2018. We will
+        ensure you have all the information you need to put your Will, Lasting
+        Powers of Attorney and Trusts into place, with no frills.
+        <br />
+        <br />
+        It’s our mission is to arm ladies and their families with the knowledge
+        and know how, to protect themselves now and to keep their wealth for
+        generations to come.
       </SectionTitle>
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
-      <SectionTitle
-        pretitle="Watch a video"
-        title="Learn how to fullfil your needs">
-        This section is to highlight a promo or demo video of your product.
-        Analysts says a landing page with video has 3% more conversion rate. So,
-        don&apos;t forget to add one. Just like this.
+      <SectionTitle title="Lasting Powers of Attorney">
+        <p className="whitespace-pre-wrap">
+          {`Ok Queens, so what you need to know is that there are two types we encourage all of our clients to consider. They are Health and Welfare and Property and Finance.
+          
+Having these documents in places means you can put someone you trust in the ‘driving seat,’ when you’re not able to. This could be for use if you’re out of the country, or if you ever became incapacitated through illness or an accident. 
+
+These are very powerful documents and help protect you while you’re still here. You can choose up to for attorneys, and you can state how and when they can act. 
+
+Have a chat with us today about your options. 
+`}
+        </p>
       </SectionTitle>
-      <Video />
-      <SectionTitle
-        pretitle="Testimonials"
-        title="Here's what our customers said">
-        Testimonails is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+      <SectionTitle title="Executor / Probate Assistance">
+        <p className="whitespace-pre-wrap">
+          {`If you have to help close an estate down after the loss of a loved one we know this can be a daunting job. We understand you’re already grieving and have a lot of paperwork to sort through. 
+
+We’re happy to help discuss the case and provide a professional service to help you through probate with one of our partners.
+`}
+        </p>
       </SectionTitle>
-      <Testimonials />
-      <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
-      </SectionTitle>
-      <Faq />
       <Cta />
       <Footer />
       <PopupWidget />
     </>
   );
-}
+};
 
 export default Home;
