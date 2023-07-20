@@ -65,8 +65,8 @@ export default function Footer() {
             </div>
           </div>
           <div className="">
-            <div className="font-semibold">Contact us</div>
-            <p className="mt-2">0121 364 1900</p>
+            <div className="">Contact us</div>
+            <p className="mt-2 font-semibold">0121 364 1900</p>
             <div className="flex mt-4 space-x-5 text-gray-400 dark:text-gray-500">
               <a
                 href="https://www.facebook.com/profile.php?id=100063451508571"
