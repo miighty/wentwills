@@ -12,16 +12,17 @@ const Cta = () => {
         </div>
         <div className="flex-shrink-0 w-full text-center lg:w-auto">
           <a
-          href="https://calendly.com/"
+            href="https://calendly.com/info-1065/30-minute-meeting"
             target="_blank"
             rel="noopener"
-            className="cursor-pointer inline-block py-3 mx-auto text-lg font-medium text-center text-indigo-600 bg-white rounded-md px-7 lg:px-10 lg:py-5 ">
+            className="cursor-pointer inline-block py-3 mx-auto text-lg font-medium text-center text-indigo-600 bg-white rounded-md px-7 lg:px-10 lg:py-5 "
+          >
             Book a Consultation with us
           </a>
         </div>
       </div>
     </Container>
   );
-}
+};
 
 export default Cta;
