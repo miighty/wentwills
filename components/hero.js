@@ -18,7 +18,7 @@ const Hero = () => {
             </p>
 
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              Book in a call with us to discuss your needs, Bust the myths &
+              Book in a call with us to discuss your needs, bust the myths &
               learn about Estate planning through our podcasts and workshops.
             </p>
 
@@ -27,7 +27,7 @@ const Hero = () => {
                 href="https://calendly.com/info-1065/30-minute-meeting"
                 target="_blank"
                 rel="noopener"
-                className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md "
+                className="px-8 py-4 text-lg font-medium   text-white bg-pink-600 rounded-md "
               >
                 Book a call
               </a>

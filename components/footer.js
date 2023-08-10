@@ -1,8 +1,6 @@
 import Link from "next/link";
-import Image from "next/image";
 import React from "react";
 import Container from "./container";
-import logo from "../public/img/logo.png";
 
 export default function Footer() {
   const navigation = [];
@@ -12,9 +10,7 @@ export default function Footer() {
       <Container>
         <div className="mb-10 grid max-w-screen-xl grid-cols-1 gap-10 pt-10 mx-auto mt-5 border-t border-gray-100 dark:border-trueGray-700 lg:grid-cols-5">
           <div className="lg:col-span-2">
-            <Image src={logo} alt="logo" />
-
-            <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
+            <div className="max-w-md text-gray-500 dark:text-gray-400">
               Suite 2A Blackthorn House <br />
               St Paul’s Square <br />
               Birmingham <br />
@@ -30,7 +26,7 @@ export default function Footer() {
                 <Link
                   key={index}
                   href="/"
-                  className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
+                  className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-yellow-500 focus:text-yellow-500 focus:bg-yellow-100 focus:outline-none dark:focus:bg-trueGray-700"
                 >
                   {item}
                 </Link>
@@ -43,7 +39,7 @@ export default function Footer() {
                 <Link
                   key={index}
                   href="/"
-                  className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
+                  className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-yellow-500 focus:text-yellow-500 focus:bg-yellow-100 focus:outline-none dark:focus:bg-trueGray-700"
                 >
                   {item}
                 </Link>
@@ -53,6 +49,7 @@ export default function Footer() {
           <div className="">
             <div className="">Contact us</div>
             <p className="mt-2 font-semibold">0121 364 1900</p>
+            <p className="mt-2 font-semibold">Info@wentworthwills.co.uk</p>
             <div className="flex mt-4 space-x-5 text-gray-400 dark:text-gray-500">
               <a
                 href="https://www.facebook.com/profile.php?id=100063451508571"

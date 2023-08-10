@@ -4,12 +4,9 @@ import Navbar from "../components/navbar";
 import SectionTitle from "../components/sectionTitle";
 
 import { benefitOne, benefitTwo } from "../components/data";
-import Video from "../components/video";
 import Benefits from "../components/benefits";
 import Footer from "../components/footer";
-import Testimonials from "../components/testimonials";
 import Cta from "../components/cta";
-import Faq from "../components/faq";
 import PopupWidget from "../components/popupWidget";
 
 const Home = () => {
@@ -37,7 +34,7 @@ const Home = () => {
         Powers of Attorney and Trusts into place, with no frills.
         <br />
         <br />
-        It’s our mission is to arm ladies and their families with the knowledge
+        It’s our mission is to help ladies and their families with the knowledge
         and know how, to protect themselves now and to keep their wealth for
         generations to come.
       </SectionTitle>
@@ -45,11 +42,11 @@ const Home = () => {
       <Benefits imgPos="right" data={benefitTwo} />
       <SectionTitle title="Lasting Powers of Attorney">
         <p className="whitespace-pre-wrap">
-          {`Ok Queens, so what you need to know is that there are two types we encourage all of our clients to consider. They are Health and Welfare and Property and Finance.
+          {`Ok queens, so what you need to know is that there are two types we encourage all of our clients to consider. They are Health and Welfare and Property and Finance.
           
 Having these documents in places means you can put someone you trust in the ‘driving seat,’ when you’re not able to. This could be for use if you’re out of the country, or if you ever became incapacitated through illness or an accident. 
 
-These are very powerful documents and help protect you while you’re still here. You can choose up to for attorneys, and you can state how and when they can act. 
+These are very powerful documents and help protect you while you’re still here. You can choose up to four attorneys, and you can state how and when they can act. 
 
 Have a chat with us today about your options. 
 `}
