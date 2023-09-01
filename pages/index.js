@@ -8,11 +8,14 @@ import {
   trusts,
   lastingPowersOfAttorney,
   executorAndProbateAssistance,
+  severanceOfTenancy,
+  coursesEducationAndSpeakingEvents,
 } from "../components/data";
 import Benefits from "../components/benefits";
 import Footer from "../components/footer";
 import Cta from "../components/cta";
 import PopupWidget from "../components/popupWidget";
+import Testimonials from "../components/testimonials";
 
 const Home = () => {
   return (
@@ -26,7 +29,6 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar />
       <Hero />
       <SectionTitle title="Why should you use us?">
         We are Antoinette and Charlene, sisters who are passionate about helping
@@ -49,13 +51,33 @@ const Home = () => {
       <div id="trusts">
         <Benefits imgPos="right" data={trusts} />
       </div>
-      <div id="lastingPowersOfAttorney">
-        <Benefits imgPos="left" data={lastingPowersOfAttorney} />
+      <div id="severanceOfTenancy">
+        <Benefits imgPos="left" data={severanceOfTenancy} />
       </div>
-      <div id="exectuorAndProbateAssistance">
-        <Benefits imgPos="right" data={executorAndProbateAssistance} />
+      <div id="lastingPowerOfAttorney">
+        <Benefits imgPos="right" data={lastingPowersOfAttorney} />
       </div>
-      <Cta />
+      <div id="executorAndProbateAssistance">
+        <Benefits imgPos="left" data={executorAndProbateAssistance} />
+      </div>
+      <div id="coursesEducationAndSpeakingEvents">
+        <Benefits imgPos="right" data={coursesEducationAndSpeakingEvents} />
+      </div>
+      <Cta
+        message="Get in touch with us."
+        ctaMessage="Info@wentworthwills.co.uk"
+        tint="yellow"
+      />
+
+      <SectionTitle title="What our Clients say" pretitle="Testimonials" />
+      <Testimonials />
+
+      <Cta
+        message="Ready to have a conversation?"
+        ctaMessage="Book a Consultation with us"
+        link="https://calendly.com/info-1065/30-minute-meeting"
+        tint="pink"
+      />
       <Footer />
       <PopupWidget />
     </>

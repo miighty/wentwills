@@ -6,56 +6,105 @@ import userOneImg from "../public/img/user1.jpg";
 import userTwoImg from "../public/img/user2.jpg";
 import userThreeImg from "../public/img/user3.jpg";
 
-const Testimonials  = () => {
+const Testimonials = () => {
   return (
     <Container>
       <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
-              Share a real <Mark>testimonial</Mark>
-              that hits some of your benefits from one of your popular customer.
+            <p className="text-3xl leading-normal mb-4">
+              Wentworth Wills were very <Mark>professional</Mark>
             </p>
 
-            <Avatar
-              image={userOneImg}
-              name="Sarah Steiner"
-              title="VP Sales at Google"
-            />
+            <p className="text-xl leading-normal ">
+              Wentworth Wills were very professional, informative and warm in
+              relation to a rather difficult subject matter. The process has
+              been seamless and undertaken in a timely manner. I would highly
+              recommend Wentworth Wills, you will not be disappointed.
+            </p>
+
+            <p className="mt-4 text-xl leading-normal ">A. Purcell</p>
           </div>
         </div>
-        <div className="">
+
+        <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
-              Make sure you only pick the <Mark>right sentence</Mark>
-              to keep it short and simple.
+            <p className="text-3xl leading-normal mb-4">
+              I <Mark>highly recommend</Mark> Wentworth Wills
             </p>
 
-            <Avatar
-              image={userTwoImg}
-              name="Dylan Ambrose"
-              title="Lead marketer at Netflix"
-            />
+            <p className="text-xl leading-normal ">
+              I highly recommend Wentworth Wills! They did an outstanding job in
+              helping me with my Lasting Power of Attorney. Their staff was
+              incredibly knowledgeable and helpful throughout the entire
+              process, answering all of my questions thoroughly and clearly. The
+              documents they provided were timely and accurate, with clear
+              instructions on how to complete them. Thanks again, Wentworth
+              Wills! Highly recommended.
+            </p>
+
+            <p className="mt-4 text-xl leading-normal ">Ms. Myers</p>
           </div>
         </div>
-        <div className="">
+
+        <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
-              This is an <Mark>awesome</Mark> landing page template I&apos;ve seen. I
-              would use this for anything.
+            <p className="text-3xl leading-normal mb-4">
+              <Mark>Knowledgeable</Mark> and Friendly
             </p>
 
-            <Avatar
-              image={userThreeImg}
-              name="Gabrielle Winn"
-              title="Co-founder of Acme Inc"
-            />
+            <p className="text-xl leading-normal ">
+              I instructed Wentworth Wills to help me navigate my way around
+              this subject and found them to be extremely knowledgeable and
+              friendly. We went through a couple of options and I was able to
+              make an informed choice regarding my Will. I'm happy to refer
+              others to Wentworth Wills for a great service. Thank you ladies.
+            </p>
+
+            <p className="mt-4 text-xl leading-normal ">K. Samuels</p>
+          </div>
+        </div>
+
+        <div className="lg:col-span-2 xl:col-auto">
+          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+            <p className="text-3xl leading-normal mb-4">
+              <Mark>Professional</Mark> service
+            </p>
+
+            <p className="text-xl leading-normal ">
+              My experience with Wentworth Wills have been very positive indeed.
+              They were very helpful even putting themselves out above and
+              beyond to assist in delivering their service. I would definitely
+              recommend them.
+            </p>
+
+            <p className="mt-4 text-xl leading-normal ">CF</p>
+          </div>
+        </div>
+
+        <div className="lg:col-span-2 xl:col-auto">
+          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+            <p className="text-3xl leading-normal mb-4">
+              Very professional, respectful and <Mark>honest</Mark>
+            </p>
+
+            <p className="text-xl leading-normal ">
+              My Mother passed away last year quite suddenly due to her battle
+              with kidney disease. The team was very professional in providing
+              tailored funeral advice to suit my needs and up to date advice on
+              payment options. They where very respectful and dealt with all the
+              complicated areas for us. Honest and took the time to plan out
+              what we needed. Highly recommend their services as they relieved a
+              lot of the burden which gave us time to grieve.
+            </p>
+
+            <p className="mt-4 text-xl leading-normal ">T. Maynard</p>
           </div>
         </div>
       </div>
     </Container>
   );
-}
+};
 
 function Avatar(props) {
   return (
