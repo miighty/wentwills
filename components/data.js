@@ -5,6 +5,7 @@ import executorAndProbateAssistanceImg from "../public/img/20230710(2).jpeg";
 import benefitTwoImg from "../public/img/20230717(2).jpeg";
 import lastingPowersOfAttorneyImg from "../public/img/20230710(3).jpeg";
 import coursesEducationAndSpeakingEventsImg from "../public/img/20230710(1).jpeg";
+import severanceOfTenancyImg from "../public/img/charlene-bnw.jpg";
 
 const wills = {
   title: "Our Wills",
@@ -49,7 +50,7 @@ your demise.
 This is why you may wish to sever the tenancy at Land Registry, and we can 
 help with this. 
   `,
-  image: benefitTwoImg,
+  image: severanceOfTenancyImg,
   bullets: [],
 };
 
@@ -83,7 +84,7 @@ const coursesEducationAndSpeakingEvents = {
 We are also available for speaking events. Please get in touch with us to discuss these services.`,
   image: coursesEducationAndSpeakingEventsImg,
   bullets: [],
-}
+};
 
 export {
   wills,
@@ -91,5 +92,5 @@ export {
   lastingPowersOfAttorney,
   executorAndProbateAssistance,
   severanceOfTenancy,
-  coursesEducationAndSpeakingEvents
+  coursesEducationAndSpeakingEvents,
 };
