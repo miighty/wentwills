@@ -9,7 +9,7 @@ export const ContactUsCta = () => {
           <h2 className="text-2xl font-medium lg:text-3xl">
             Get in touch with us at
             <br />{" "}
-            <span className="text-4xl font-bold lg:text-5xl">
+            <span className="text-3xl font-bold lg:text-4xl">
               info@wentworthwills.co.uk
             </span>
           </h2>

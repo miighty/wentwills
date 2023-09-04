@@ -3,9 +3,9 @@ import { FaceSmileIcon } from "@heroicons/react/24/solid";
 import benefitOneImg from "../public/img/20230710.jpeg";
 import executorAndProbateAssistanceImg from "../public/img/20230710(2).jpeg";
 import benefitTwoImg from "../public/img/20230717(2).jpeg";
-import lastingPowersOfAttorneyImg from "../public/img/20230710(3).jpeg";
+import lastingPowersOfAttorneyImg from "../public/img/charlene-bnw.jpg";
+import severanceOfTenancyImg  from "../public/img/20230710(3).jpeg";
 import coursesEducationAndSpeakingEventsImg from "../public/img/20230710(1).jpeg";
-import severanceOfTenancyImg from "../public/img/charlene-bnw.jpg";
 
 const wills = {
   title: "Our Wills",
