@@ -12,7 +12,7 @@ import {
 } from "../components/data";
 import Benefits from "../components/benefits";
 import Footer from "../components/footer";
-import Cta from "../components/cta";
+import Cta, { ContactUsCta } from "../components/cta";
 import PopupWidget from "../components/popupWidget";
 import Testimonials from "../components/testimonials";
 
@@ -62,21 +62,13 @@ const Home = () => {
       <div id="coursesEducationAndSpeakingEvents">
         <Benefits imgPos="right" data={coursesEducationAndSpeakingEvents} />
       </div>
-      <Cta
-        message="Get in touch with us."
-        ctaMessage="Info@wentworthwills.co.uk"
-        tint="yellow"
-      />
+
+      <ContactUsCta />
 
       <SectionTitle title="What our Clients say" pretitle="Testimonials" />
       <Testimonials />
 
-      <Cta
-        message="Ready to have a conversation?"
-        ctaMessage="Book a Consultation with us"
-        link="https://calendly.com/info-1065/30-minute-meeting"
-        tint="pink"
-      />
+      <Cta />
       <Footer />
       <PopupWidget />
     </>
