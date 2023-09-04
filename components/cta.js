@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "./container";
 
-const Cta = ({ message, ctaMessage, link, tint }) => {
+const Cta = ({ message, ctaMessage, link, tint='pink' }) => {
   return (
     <Container>
       <div
