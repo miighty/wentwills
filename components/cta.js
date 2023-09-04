@@ -15,7 +15,7 @@ const Cta = ({ message, ctaMessage, link, tint='pink' }) => {
             href={link}
             target="_blank"
             rel="noopener"
-            className={`text-${tint}-600 cursor-pointer inline-block py-3 mx-auto text-lg font-medium bg-white rounded-md px-7 lg:px-10 lg:py-5`}
+            className={`cursor-pointer inline-block py-3 mx-auto text-lg font-medium bg-white rounded-md px-7 lg:px-10 lg:py-5 text-${tint}-600`}
           >
             {ctaMessage}
           </a>
